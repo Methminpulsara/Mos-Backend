@@ -1,0 +1,8 @@
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/mos_db
+    username: root
+    password: methmin123
+  jpa:
+    hibernate:
+      ddl-auto: update
