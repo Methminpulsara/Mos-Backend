@@ -25,6 +25,5 @@ public class Cart_entity {
     private Double price;
     private Integer qty;
     private Integer discount;
-    private String availabillity;
     private String image;
 }

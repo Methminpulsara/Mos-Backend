@@ -43,7 +43,11 @@ public class CartController {
     @PutMapping("/{productID}/{qty}")
     void updateQty(@PathVariable Integer productID , @PathVariable Integer qty){
         service.updateQty(productID,qty);
+    }
 
+    @DeleteMapping("/delete/All")
+    public void deletePlacedOrders(){
+        service.deleteAll();
     }
 
 

@@ -27,7 +27,7 @@ public class CartService_impl implements CartService {
 
     @Override
     public List<Cart> getAll() {
-        List<Cart_entity> all = repository.findAllNotPlacedCarts();
+        List<Cart_entity> all = repository.findAll();
         List<Cart> carts = new ArrayList<>();
         all.forEach(cartEntity -> {
             carts.add(mapper.map(cartEntity, Cart.class));
@@ -40,12 +40,18 @@ public class CartService_impl implements CartService {
     public List<Cart_entity> searchProductID(@RequestParam String name) {
         return repository.findByName(name);
 
+
     }
 
     @Override
     @Transactional
     public void updateQty(Integer productID, Integer qty) {
         repository.updateQuantity(productID,qty);
+    }
+
+    @Override
+    public void deleteAll() {
+        repository.deleteAll();
     }
 
 

@@ -11,6 +11,7 @@ public interface CartService {
     List <Cart> getAll();
     List<Cart_entity> searchProductID(String name);
     void updateQty(Integer productID , Integer qty);
+    void deleteAll();
 
 
 }

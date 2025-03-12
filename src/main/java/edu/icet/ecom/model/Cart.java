@@ -19,7 +19,6 @@ public class Cart {
     private Double price;
     private Integer qty;
     private Integer discount;
-    private String availabillity;
     private String image;
 
 }

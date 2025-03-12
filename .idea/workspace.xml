@@ -4,55 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="820cf2b7-14f9-4f5b-9320-652c9884d538" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu/icet/ecom/controller/cart/CartController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu/icet/ecom/controller/customer/CustomerController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu/icet/ecom/controller/order/OrderController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu/icet/ecom/entity/Cart_entity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu/icet/ecom/entity/Customer_entity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu/icet/ecom/entity/OrderDetail_entity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu/icet/ecom/entity/Order_entity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu/icet/ecom/model/Cart.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu/icet/ecom/model/Customer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu/icet/ecom/model/OrderDetail.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu/icet/ecom/repository/Cart_repository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu/icet/ecom/repository/Customer_repository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu/icet/ecom/repository/OrderDetail_repository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu/icet/ecom/repository/Order_repository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu/icet/ecom/service/CartService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu/icet/ecom/service/CustomerService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu/icet/ecom/service/OrderDetailService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu/icet/ecom/service/OrderService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu/icet/ecom/service/impl/CartService_impl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu/icet/ecom/service/impl/CustomerService_impl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu/icet/ecom/service/impl/OrderService_impl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu/icet/ecom/service/impl/OredrDetailService_impl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/icet/ecom/controller/product/ProductController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/icet/ecom/controller/product/ProductController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/icet/ecom/entity/Product_entity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/icet/ecom/entity/Product_entity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/icet/ecom/repository/Product_repository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/icet/ecom/repository/Product_repository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/icet/ecom/service/ProductService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/icet/ecom/service/ProductService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/icet/ecom/service/impl/ProductService_impl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/icet/ecom/service/impl/ProductService_impl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Mosburger-1.0-SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/edu/icet/ecom/controller/product/ProductController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/edu/icet/ecom/controller/product/ProductController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/edu/icet/ecom/entity/Product_entity.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/edu/icet/ecom/entity/Product_entity.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/edu/icet/ecom/repository/Product_repository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/edu/icet/ecom/repository/Product_repository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/edu/icet/ecom/service/ProductService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/edu/icet/ecom/service/ProductService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/edu/icet/ecom/service/impl/ProductService_impl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/edu/icet/ecom/service/impl/ProductService_impl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mosburger-Frontend/css/product.css" beforeDir="false" afterPath="$PROJECT_DIR$/../mosburger-Frontend/css/product.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mosburger-Frontend/img/dbimages/product.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mosburger-Frontend/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../mosburger-Frontend/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mosburger-Frontend/pages/product.html" beforeDir="false" afterPath="$PROJECT_DIR$/../mosburger-Frontend/pages/product.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mosburger-Frontend/pages/product.js" beforeDir="false" afterPath="$PROJECT_DIR$/../mosburger-Frontend/pages/product.js" afterDir="false" />
-    </list>
+    <list default="true" id="820cf2b7-14f9-4f5b-9320-652c9884d538" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -68,7 +20,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
   &quot;lastFilter&quot;: {
@@ -78,7 +30,7 @@
 }</component>
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/Methminpulsara/mos.git&quot;,
+    &quot;url&quot;: &quot;https://github.com/Methminpulsara/Mos-Backend.git&quot;,
     &quot;accountId&quot;: &quot;2a674553-d6ad-45a8-b515-ba9047c918cf&quot;
   }
 }</component>
@@ -86,35 +38,36 @@
   &quot;associatedIndex&quot;: 8
 }</component>
   <component name="ProjectId" id="2t9VfrzQjAInNfqDHgVHh2jJtNY" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Maven.CustomerManegmnet [clean,install].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.CustomerManegmnet [clean].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.CustomerManegmnet [install].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.CustomerManegmnet [mvn,clean,install,mvn...].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.CustomerManegmnet [package].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.CustomerManegmnet [spring-boot:run,-X].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.CustomerManegmnet [spring-boot:run].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.Mosburger [clean,install].executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/USER/Desktop/Mos Fullstack/mos&quot;,
-    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/USER/Desktop/SpringBoot/mos/Mosburger/src/main/java/edu/icet/ecom/Main.java&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Main.executor": "Run",
+    "Maven.CustomerManegmnet [clean,install].executor": "Run",
+    "Maven.CustomerManegmnet [clean].executor": "Run",
+    "Maven.CustomerManegmnet [install].executor": "Run",
+    "Maven.CustomerManegmnet [mvn,clean,install,mvn...].executor": "Run",
+    "Maven.CustomerManegmnet [package].executor": "Run",
+    "Maven.CustomerManegmnet [spring-boot:run,-X].executor": "Run",
+    "Maven.CustomerManegmnet [spring-boot:run].executor": "Run",
+    "Maven.Mosburger [clean,install].executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/USER/Desktop/Mos Fullstack/mos",
+    "onboarding.tips.debug.path": "C:/Users/USER/Desktop/SpringBoot/mos/Mosburger/src/main/java/edu/icet/ecom/Main.java",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
