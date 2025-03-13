@@ -44,7 +44,15 @@ public class CustomerService_impl implements CustomerService {
         repository.deleteById(id);
     }
 
+    @Override
+    public Customer searchById(Integer id) {
+       return mapper.map(repository.findById(id), Customer.class);
+    }
 
+    @Override
+    public void updateCustomer(Customer customer) {
+        repository.save(mapper.map(customer, Customer_entity.class));
+    }
 
 
 }

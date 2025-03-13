@@ -34,4 +34,13 @@ public class CustomerController {
         service.add(custoemr);
     }
 
+    @GetMapping("/search/by/{id}")
+    public Customer searc(@PathVariable Integer id ){
+        return service.searchById(id);
+    }
+
+    @PutMapping("/updatecustomer")
+    public void update(@RequestBody Customer customer){
+        service.add(customer);
+    }
 }
