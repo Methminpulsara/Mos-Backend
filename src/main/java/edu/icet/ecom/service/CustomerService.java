@@ -7,6 +7,7 @@ import java.util.List;
 
 
 public interface CustomerService {
+
     void add(Customer customer);
     Customer searchByNumber(String number);
     List<Customer> getAll();

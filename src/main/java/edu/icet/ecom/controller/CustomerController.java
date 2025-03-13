@@ -1,4 +1,4 @@
-package edu.icet.ecom.controller.customer;
+package edu.icet.ecom.controller;
 
 
 import edu.icet.ecom.model.Customer;
@@ -14,12 +14,6 @@ public class CustomerController {
 
 
     final CustomerService service;
-
-    @PostMapping("/add")
-    public void add(@RequestBody Customer customer){
-        service.add(customer);
-    }
-
     @GetMapping("/searphonenumber/{number}")
     public Customer searchBynumber(@PathVariable String number){
         return service.searchByNumber(number);
@@ -33,6 +27,11 @@ public class CustomerController {
     @DeleteMapping("/delete/{id}")
     public void deleteCustomer (@PathVariable Integer id){
         service.delete(id);
+    }
+
+    @PostMapping("/add")
+    public void add(@RequestBody Customer custoemr){
+        service.add(custoemr);
     }
 
 }

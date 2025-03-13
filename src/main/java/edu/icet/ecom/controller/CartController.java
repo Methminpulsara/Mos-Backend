@@ -1,4 +1,4 @@
-package edu.icet.ecom.controller.cart;
+package edu.icet.ecom.controller;
 
 
 import edu.icet.ecom.entity.Cart_entity;
@@ -48,6 +48,11 @@ public class CartController {
     @DeleteMapping("/delete/All")
     public void deletePlacedOrders(){
         service.deleteAll();
+    }
+    
+    @DeleteMapping("/delete/{productId}")
+    public void delete(@PathVariable Integer productId){
+        service.deleteByProductID(productId);
     }
 
 

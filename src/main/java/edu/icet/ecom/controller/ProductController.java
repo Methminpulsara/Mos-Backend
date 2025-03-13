@@ -1,4 +1,4 @@
-package edu.icet.ecom.controller.product;
+package edu.icet.ecom.controller;
 
 
 import edu.icet.ecom.entity.Product_entity;

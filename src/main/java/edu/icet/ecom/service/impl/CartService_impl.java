@@ -54,5 +54,10 @@ public class CartService_impl implements CartService {
         repository.deleteAll();
     }
 
+    @Override
+    public void deleteByProductID(Integer productID) {
+        repository.deleteByproductID(productID);
+    }
+
 
 }

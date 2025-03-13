@@ -1,4 +1,4 @@
-package edu.icet.ecom.controller.order;
+package edu.icet.ecom.controller;
 
 
 import edu.icet.ecom.model.Order;
