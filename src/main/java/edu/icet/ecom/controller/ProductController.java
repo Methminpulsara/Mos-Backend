@@ -22,6 +22,20 @@ public class ProductController {
     final ModelMapper mapper;
 
 
+    @PostMapping("/add")
+    public void add (@RequestBody Product product){
+        productService.add(product);
+    }
+
+    @PutMapping("/update")
+    public void update (@RequestBody Product product){
+        productService.update(product);
+    }
+    @DeleteMapping("/delete")
+    public void delete (@PathVariable Integer id){
+        productService.delete(id);
+    }
+
     @GetMapping("/getAll")
     public List<Product> getAll() {
         List<Product> all = productService.getAll();

@@ -30,12 +30,22 @@ public class ProductService_impl implements ProductService {
         });
         return products;
     }
-
     @Override
     public List<Product_entity> getShortByname(@RequestParam  String name) {
         return repository.findByNameContaining(name);
     }
-
+    @Override
+    public void add(Product product) {
+        repository.save(mapper.map(product, Product_entity.class));
+    }
+    @Override
+    public void delete(Integer id) {
+        repository.deleteById(id);
+    }
+    @Override
+    public void update(Product product) {
+        repository.save(mapper.map(product, Product_entity.class));
+    }
 
 
 }

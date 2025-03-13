@@ -7,4 +7,7 @@ import java.util.List;
 public interface ProductService {
     List<Product>getAll ();
     List<Product_entity>getShortByname(String name);
+    void add (Product product);
+    void delete(Integer id);
+    void update (Product product);
 }
