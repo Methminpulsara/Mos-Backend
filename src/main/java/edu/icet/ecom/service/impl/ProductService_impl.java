@@ -6,7 +6,9 @@ import edu.icet.ecom.repository.Product_repository;
 import edu.icet.ecom.service.ProductService;
 import lombok.RequiredArgsConstructor;
 import org.modelmapper.ModelMapper;
+import org.springframework.data.jpa.repository.Modifying;
 import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestParam;
 
@@ -39,6 +41,8 @@ public class ProductService_impl implements ProductService {
         repository.save(mapper.map(product, Product_entity.class));
     }
     @Override
+    @Transactional
+    @Modifying
     public void delete(Integer id) {
         repository.deleteById(id);
     }

@@ -14,7 +14,7 @@ import java.util.stream.Collectors;
 @RestController
 @RequiredArgsConstructor
 @CrossOrigin
-@RequestMapping("/product")
+    @RequestMapping("/product")
 
 public class ProductController {
 
@@ -31,7 +31,7 @@ public class ProductController {
     public void update (@RequestBody Product product){
         productService.update(product);
     }
-    @DeleteMapping("/delete")
+    @DeleteMapping("/delete/{id}")
     public void delete (@PathVariable Integer id){
         productService.delete(id);
     }
