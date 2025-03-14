@@ -41,8 +41,6 @@ public class ProductService_impl implements ProductService {
         repository.save(mapper.map(product, Product_entity.class));
     }
     @Override
-    @Transactional
-    @Modifying
     public void delete(Integer id) {
         repository.deleteById(id);
     }

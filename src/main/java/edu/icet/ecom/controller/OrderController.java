@@ -1,11 +1,16 @@
 package edu.icet.ecom.controller;
 
 
+import edu.icet.ecom.entity.Order_entity;
 import edu.icet.ecom.model.Order;
+import edu.icet.ecom.model.Product;
 import edu.icet.ecom.service.OrderService;
 import lombok.RequiredArgsConstructor;
+import org.modelmapper.ModelMapper;
 import org.springframework.web.bind.annotation.*;
 import  java.util.*;
+import java.util.stream.Collectors;
+
 @RestController
 @RequestMapping("/order")
 @RequiredArgsConstructor
@@ -14,6 +19,7 @@ import  java.util.*;
 public class OrderController {
 
     final OrderService service;
+    final ModelMapper mapper;
 
     @PostMapping("/add")
     public void add(@RequestBody Order order){
@@ -23,5 +29,15 @@ public class OrderController {
     @GetMapping("/getall")
     public List<Order> getAll(){
         return service.getAll();
+    }
+
+    @GetMapping("/serchbyid/{id}")
+    public List<Order> getbyID(@PathVariable  Integer id){
+
+        List<Order_entity> orderEntities = service.search(id);
+
+        return orderEntities.stream()
+                .map(productEntity -> mapper.map(orderEntities, Order.class))
+                .collect(Collectors.toList());
     }
 }

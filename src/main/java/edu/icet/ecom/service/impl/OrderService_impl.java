@@ -4,7 +4,6 @@ import edu.icet.ecom.entity.OrderDetail_entity;
 import edu.icet.ecom.entity.Order_entity;
 import edu.icet.ecom.entity.Product_entity;
 import edu.icet.ecom.model.Order;
-import edu.icet.ecom.model.Product;
 import edu.icet.ecom.repository.OrderDetail_repository;
 import edu.icet.ecom.repository.Order_repository;
 import edu.icet.ecom.service.OrderService;
@@ -58,5 +57,10 @@ public class OrderService_impl implements OrderService {
             orderList.add(mapper.map(orderEntity,Order.class));
         });
         return orderList;
+    }
+
+    @Override
+    public List<Order_entity> search(Integer id) {
+        return orderRepository.findAllById(id);
     }
 }
