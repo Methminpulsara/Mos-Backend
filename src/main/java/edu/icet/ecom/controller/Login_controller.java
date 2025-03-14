@@ -21,5 +21,9 @@ public class Login_controller {
         service.add(login);
     }
 
+    @GetMapping("/search/{email}")
+    public Login search (@PathVariable String email){
+        return service.search(email);
+    }
     
 }

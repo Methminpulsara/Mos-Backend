@@ -21,7 +21,7 @@ public class LoginService_impl implements LoginService {
     }
 
     @Override
-    public Login search(String email, String password) {
-        return mapper.map(repository.findByEmailAndPassword(email,password), Login.class);
+    public Login search(String email) {
+        return mapper.map(repository.findByEmail(email), Login.class);
     }
 }
