@@ -43,30 +43,30 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.Main.executor": "Run",
-    "Maven.CustomerManegmnet [clean,install].executor": "Run",
-    "Maven.CustomerManegmnet [clean].executor": "Run",
-    "Maven.CustomerManegmnet [install].executor": "Run",
-    "Maven.CustomerManegmnet [mvn,clean,install,mvn...].executor": "Run",
-    "Maven.CustomerManegmnet [package].executor": "Run",
-    "Maven.CustomerManegmnet [spring-boot:run,-X].executor": "Run",
-    "Maven.CustomerManegmnet [spring-boot:run].executor": "Run",
-    "Maven.Mosburger [clean,install].executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/USER/Desktop/Mos Fullstack/mos",
-    "onboarding.tips.debug.path": "C:/Users/USER/Desktop/SpringBoot/mos/Mosburger/src/main/java/edu/icet/ecom/Main.java",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Maven.CustomerManegmnet [clean,install].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.CustomerManegmnet [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.CustomerManegmnet [install].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.CustomerManegmnet [mvn,clean,install,mvn...].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.CustomerManegmnet [package].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.CustomerManegmnet [spring-boot:run,-X].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.CustomerManegmnet [spring-boot:run].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.Mosburger [clean,install].executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/USER/Desktop/Mos Fullstack/mos&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/USER/Desktop/SpringBoot/mos/Mosburger/src/main/java/edu/icet/ecom/Main.java&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.DirectoryMappings&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -122,5 +122,23 @@
       <updated>1739764389053</updated>
     </task>
     <servers />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-field">
+          <url>file://$PROJECT_DIR$/src/main/java/edu/icet/ecom/service/impl/LoginService_impl.java</url>
+          <line>15</line>
+          <properties field="mapper" class="edu.icet.ecom.service.impl.LoginService_impl" />
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-field">
+          <url>file://$PROJECT_DIR$/src/main/java/edu/icet/ecom/service/impl/CartService_impl.java</url>
+          <line>19</line>
+          <properties field="mapper" class="edu.icet.ecom.service.impl.CartService_impl" />
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

@@ -28,6 +28,7 @@ public class CartService_impl implements CartService {
     @Override
     public List<Cart> getAll() {
         List<Cart_entity> all = repository.findAll();
+        System.out.println(mapper);
         List<Cart> carts = new ArrayList<>();
         all.forEach(cartEntity -> {
             carts.add(mapper.map(cartEntity, Cart.class));

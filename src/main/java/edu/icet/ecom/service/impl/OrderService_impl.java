@@ -11,7 +11,9 @@ import edu.icet.ecom.service.OrderService;
 import lombok.RequiredArgsConstructor;
 import org.modelmapper.ModelMapper;
 import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
 
+import java.util.ArrayList;
 import java.util.List;
 import java.util.stream.Collectors;
 
@@ -25,6 +27,7 @@ public class OrderService_impl implements OrderService {
     final ModelMapper mapper;
 
     @Override
+    @Transactional
     public void add(Order order) {
        Order_entity orderEntity = new Order_entity();
        orderEntity.setDate(order.getDate());
@@ -45,5 +48,15 @@ public class OrderService_impl implements OrderService {
 
         orderDetailRepository.saveAll(orderDetail);
         saveOrder.setOrderDetail(orderDetail);
+    }
+
+    @Override
+    public List<Order> getAll() {
+        List<Order_entity> all = orderRepository.findAll();
+        List<Order> orderList = new ArrayList<>();
+        all.forEach(orderEntity -> {
+            orderList.add(mapper.map(orderEntity,Order.class));
+        });
+        return orderList;
     }
 }
