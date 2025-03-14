@@ -35,9 +35,10 @@ public class OrderController {
     public List<Order> getbyID(@PathVariable  Integer id){
 
         List<Order_entity> orderEntities = service.search(id);
-
-        return orderEntities.stream()
-                .map(productEntity -> mapper.map(orderEntities, Order.class))
-                .collect(Collectors.toList());
+        List <Order> orderList = new ArrayList<>();
+        orderEntities.forEach(orderEntity -> {
+            orderList.add(mapper.map(orderEntity,Order.class));
+        });
+        return orderList;
     }
 }

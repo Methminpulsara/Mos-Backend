@@ -21,9 +21,5 @@ public class Login_controller {
         service.add(login);
     }
 
-    @GetMapping("/login/{email}/{password}")
-    Login login (@PathVariable("email") String email , @PathVariable("password")String password){
-        System.out.println("run,jsbaj");
-        return service.search(email,password);
-    }
+    
 }
