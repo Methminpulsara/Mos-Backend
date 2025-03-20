@@ -28,6 +28,7 @@ public class Product_entity {
     private Integer discount;
     private String type;
     private String availability;
+    
     private String image;
 
 
